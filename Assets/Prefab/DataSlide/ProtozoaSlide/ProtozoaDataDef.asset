@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991577a194a9fb645b0588d152ddce08, type: 3}
+  m_Name: ProtozoaDataDef
+  m_EditorClassIdentifier: 
+  group: 2
+  button: {fileID: 6951789009568423412, guid: b6feea3662601ec41b1d026054426ae5, type: 3}
+  contentButtons:
+  - item: {fileID: 11400000, guid: 47df8d72721b9d945a0d8907550def47, type: 2}
+    position: {x: -740, y: 204, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: f9d375e88b7c61e438fb74d60e74aea9, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 603f2437269528143866366f2378d4bd, type: 2}
+    position: {x: -86, y: -34, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 4795c7b7d9d461742a4ff499cf12eab0, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: d6219013f589f1c499ba3e9b5f6f58cf, type: 2}
+    position: {x: -408, y: 71, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 97470f11f5b7d8444b9676f29284db66, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: f600c09f7edf90244872be0c55d74f82, type: 2}
+    position: {x: 254, y: 194, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 171fe8ab05e8c8647a455a340b173715, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 9eb79d1bbbbca424386a84da2c8b9429, type: 2}
+    position: {x: -565, y: -236, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 731733d168d6fa04190cc1a0557defe1, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: d6faee80febd33b4b9e0315a45747f07, type: 2}
+    position: {x: -86, y: 278, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 2df6e9c4683a20a46b5becab72a9b218, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 568ecd0778ccc174fa272b220296e381, type: 2}
+    position: {x: 306, y: -226, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 9adab0a17df7d6947a3fe7c1a1fe4d3a, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}

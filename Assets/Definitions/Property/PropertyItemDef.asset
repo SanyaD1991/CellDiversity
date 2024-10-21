@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d181c5309a9144ac4a30f1ceb00ff, type: 3}
+  m_Name: PropertyItemDef
+  m_EditorClassIdentifier: 
+  slideDataButtonsDefs:
+  - {fileID: 11400000, guid: 120741a0273ceb54aae28d0b11a17336, type: 2}
+  - {fileID: 11400000, guid: bec97dd11ed78a84a8bc30d856e1cf2f, type: 2}
+  - {fileID: 11400000, guid: ae532d87c9f250d4d87ee5405d962690, type: 2}
+  - {fileID: 11400000, guid: 81903dd1a8cda70469eb757d1fde4ae1, type: 2}
+  - {fileID: 11400000, guid: 1e3299cb5efccb743b78f2bc9a45a0c8, type: 2}

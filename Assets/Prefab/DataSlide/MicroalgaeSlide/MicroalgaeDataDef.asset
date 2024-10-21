@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991577a194a9fb645b0588d152ddce08, type: 3}
+  m_Name: MicroalgaeDataDef
+  m_EditorClassIdentifier: 
+  group: 4
+  button: {fileID: 6951789009568423412, guid: b6feea3662601ec41b1d026054426ae5, type: 3}
+  contentButtons:
+  - item: {fileID: 11400000, guid: ebc7a19001adc454d90a6c481f914657, type: 2}
+    position: {x: -22, y: 308, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 7f687c62009653642a796e5ba5f75824, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: fe1d87d79cb2be94ba88ec028994d781, type: 2}
+    position: {x: -588, y: -246, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 374aa29589e0f424e83c4a6f5ecbd464, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: bfa77239e386fc442bb668c961d75f49, type: 2}
+    position: {x: -678, y: 225, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 0a5b1eb4f2b673d47a2a6b072ca15ab5, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: e0f6d616852f7e94dbc662f4b0743786, type: 2}
+    position: {x: -127, y: -200, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 0231a29711a78de4a844198e28b9ce38, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 25185f2612a0d4b4ca13c189a5428146, type: 2}
+    position: {x: 176, y: -121, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: a789a9821d6afe64e979b25c54cd2eca, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 5ec9ab070172e62409e54336e7d9d6ea, type: 2}
+    position: {x: -448, y: 44, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: b03e304b492d2144b9e7817cab607635, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 025810581a104d44694f84a343a6cbfe, type: 2}
+    position: {x: -182, y: 57, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 05f0967afa0c7614e8617b657950f720, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: fb7a1a5891c6fc84a8adce947f4fa892, type: 2}
+    position: {x: 274, y: 188, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 7ff95035163f4ea4893a27a7175f7353, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}

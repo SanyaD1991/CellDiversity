@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991577a194a9fb645b0588d152ddce08, type: 3}
+  m_Name: BacteriumDataDef
+  m_EditorClassIdentifier: 
+  group: 0
+  button: {fileID: 6951789009568423412, guid: b6feea3662601ec41b1d026054426ae5, type: 3}
+  contentButtons:
+  - item: {fileID: 11400000, guid: 5f5ec213519f1dd44900143dae7ebaec, type: 2}
+    position: {x: -359, y: 230, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 62f63bedf4228c149844659f43ffa87e, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 84d4d4f1a18d80542a74520a79ab9c02, type: 2}
+    position: {x: 356, y: -243, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: c33f8c80c4195994390ccccc9b7c75aa, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: caaaa0aecd59a0f4187eb86c1d651cdb, type: 2}
+    position: {x: -145, y: -115, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 32a9626c0d02dc5479c934081b8893df, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 80d68418201a1754a97d09058997e95a, type: 2}
+    position: {x: 241, y: 138, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: 59a78ceabfa12b9459397a600b0d07ab, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}
+  - item: {fileID: 11400000, guid: 8e16b2268f221264ead4603a0864a69f, type: 2}
+    position: {x: -688, y: -99, z: 0}
+    slideManager: {fileID: 6869219821534346469, guid: 6ade29c3620ee594dba67a3c6272646c, type: 3}
+    description: {fileID: 11400000, guid: e5e2e281629ae904ebf5652601e9754f, type: 2}
+    imageContent: {fileID: 11400000, guid: 7b714bb4c6ae0f5479931cd8e76ef41d, type: 2}

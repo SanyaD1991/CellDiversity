@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19461f4afd335b4eb7a4023ca1930ec, type: 3}
+  m_Name: PropertyColorsDef
+  m_EditorClassIdentifier: 
+  _properties:
+  - _id: black
+    _color: {r: 0, g: 0, b: 0, a: 1}
+  - _id: white
+    _color: {r: 1, g: 1, b: 1, a: 1}
+  - _id: grey
+    _color: {r: 0.40392157, g: 0.40784314, b: 0.4509804, a: 1}
+  - _id: light grey
+    _color: {r: 0.6784314, g: 0.6784314, b: 0.6784314, a: 1}
+  - _id: dark blue
+    _color: {r: 0.0627451, g: 0.15294118, b: 0.3372549, a: 1}
+  - _id: light blue
+    _color: {r: 0.17254902, g: 0.5254902, b: 0.75294125, a: 1}
+  - _id: dark blue grey
+    _color: {r: 0.24313727, g: 0.31764707, b: 0.43921572, a: 1}
+  - _id: soft blue
+    _color: {r: 0.7843138, g: 0.8352942, b: 0.89019614, a: 1}
+  - _id: blue grey
+    _color: {r: 0.41176474, g: 0.5372549, b: 0.654902, a: 1}
+  - _id: bright beige
+    _color: {r: 0.95294124, g: 0.8862746, b: 0.7411765, a: 1}
+  - _id: blue
+    _color: {r: 0, g: 0.31764707, b: 0.5686275, a: 1}
+  - _id: light turquoise
+    _color: {r: 0, g: 0.54509807, b: 0.57254905, a: 1}
+  - _id: turquoise
+    _color: {r: 0, g: 0.454902, b: 0.4784314, a: 1}
+  - _id: beige grey
+    _color: {r: 0.5803922, g: 0.5882353, b: 0.5529412, a: 1}
+  - _id: light beige
+    _color: {r: 0.95294124, g: 0.9333334, b: 0.8705883, a: 1}
+  - _id: grey white
+    _color: {r: 0.9490197, g: 0.9450981, b: 0.9333334, a: 1}
+  - _id: alpha/100
+    _color: {r: 0.9490197, g: 0.9450981, b: 0.9333334, a: 0}
+  - _id: alpha/50
+    _color: {r: 1, g: 1, b: 1, a: 0.3882353}
