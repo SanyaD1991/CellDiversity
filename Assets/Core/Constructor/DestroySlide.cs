@@ -1,9 +1,10 @@
+using Core.Interface;
 using Core.Managers;
 using UnityEngine;
 
 namespace Core.Constructor
 {
-    public class DestroySlide : MonoBehaviour
+    public class DestroySlide : MonoBehaviour, INavigation
     {
         public void OnRemove()
         {

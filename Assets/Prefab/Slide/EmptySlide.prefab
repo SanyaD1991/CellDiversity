@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 6869219821534346469}
   - component: {fileID: 5378412029071047519}
   m_Layer: 0
-  m_Name: NoneSlide
+  m_Name: EmptySlide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -151,6 +151,7 @@ MonoBehaviour:
   DinamicStyle:
   - _id: Languages
     _style: {fileID: 11400000, guid: 7d24d9c1e27784a4f9ccc26c4115871e, type: 2}
+  isShowAdditionalPanel: 0
 --- !u!1 &8625236703323764504
 GameObject:
   m_ObjectHideFlags: 0

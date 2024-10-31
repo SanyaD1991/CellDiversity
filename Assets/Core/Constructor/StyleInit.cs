@@ -23,7 +23,6 @@ namespace Core.Constructor
         private Image border;
         private Image icon;
         private TextMeshProUGUI text;
-
         public bool IsActive => isActive;
 
         private void Awake()
@@ -77,9 +76,7 @@ namespace Core.Constructor
                 return;
             }
             text.color = color;
-        }      
-
-       
+        }    
 
         public void Activate(bool isInvoke = true)
         {

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 namespace Core.Managers
@@ -13,15 +14,16 @@ namespace Core.Managers
         [SerializeField] private List<SlideManager> slideManagers = new List<SlideManager>();
 
         private Action SheduledAction;
-        private void Update()
+        private bool inAction;
+
+        private void TrySheduleAction(Action action)
         {
-            if (SheduledAction == null) return;
-            SheduledAction.Invoke();
-            SheduledAction = null;
+            if (SheduledAction == null) SheduledAction = action;
         }
 
-        public void AddSlide(SlideManager slide, List<UnityEngine.Object> content)
+        public void AddSlide(SlideManager slide, List<UnityEngine.Object> content, UnityEvent[] unityEvents)
         {
+            if (inAction) return;
             TrySheduleAction(() =>
             {
                 if (slideManagers.Count > 0)
@@ -34,13 +36,18 @@ namespace Core.Managers
                 }
                 slide = Instantiate(slide, hierarchy.transform);               
                 slide.SetContent(content);
+                slide.SetActionStart(unityEvents[0]);
+                slide.SetActionDestroy(unityEvents[1]);
                 slideManagers.Add(slide);
                 AnaliseButtonnavigation();
+                inAction=true;
             });
+            UpdateShedule();
         }
 
         public void RemoveSlide()
         {
+            if (inAction) return;
             TrySheduleAction(() =>
             {
                 int Count = slideManagers.Count - 1;
@@ -52,11 +59,14 @@ namespace Core.Managers
                 }
                 AnaliseButtonnavigation();
                 topPanel.UpdateText();
+                inAction = true;
             });
+            UpdateShedule();
         }
 
         public void HomeSlide()
         {
+            if (inAction) return;
             TrySheduleAction(() =>
             {
                 SlideManager slideHome = slideManagers[0];
@@ -69,9 +79,11 @@ namespace Core.Managers
                 slideHome.gameObject.SetActive(true);
                 AnaliseButtonnavigation();
                 topPanel.UpdateText();
+                inAction = true;
             });
-        }  
-    
+            UpdateShedule();
+        }
+     
         private void AnaliseButtonnavigation()
         {
             if (slideManagers.Count > 1)
@@ -83,13 +95,15 @@ namespace Core.Managers
                 topPanel.ActiveButtonNavigation(false);
             }          
             int i = slideManagers.Count - 1;
-            topPanel.ActiveAdditionalPanel(slideManagers[i].isShowAdditionalPanel);
+            topPanel.ActiveAdditionalPanel(slideManagers[i].IsShowAdditionalPanel);
             
         }
-
-        private void TrySheduleAction(Action action)
+       
+        private void UpdateShedule()
         {
-            if (SheduledAction == null) SheduledAction = action;
-        }       
+            SheduledAction?.Invoke();
+            SheduledAction = null;
+            inAction=false;
+        }
     }
 }

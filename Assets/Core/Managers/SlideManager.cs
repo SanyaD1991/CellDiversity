@@ -1,17 +1,35 @@
 using Core.Constructor;
 using Core.Model.Struct;
 using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.Events;
 
 
 namespace Core.Managers
 {
-    public class SlideManager : MonoBehaviour
+    public class SlideManager : MonoBehaviour 
     {
         [SerializeField] private PropertyIdentification[] DinamicStyle;
-        private List<Object> content;
-        public bool isShowAdditionalPanel = true;
+        [SerializeField] private bool isShowAdditionalPanel = true;
+        private UnityEvent EventStart;
+        private UnityEvent EventDestroy;
 
+        private void Start() 
+        {
+            EventStart?.Invoke();
+        }
+        public void SetActionStart(UnityEvent action)
+        {
+            EventStart = action;
+        }
+        public void SetActionDestroy(UnityEvent action)
+        {
+            EventDestroy = action;
+        }
+
+        private List<Object> content;
+        public bool IsShowAdditionalPanel => isShowAdditionalPanel;
         public List<Object> GetContent => content;
         public void SetContent(List<Object> item)
         {
@@ -35,7 +53,12 @@ namespace Core.Managers
 
         private void OnEnable()
         {
-            FindAndEditStyle();         
+            FindAndEditStyle();            
+        }
+
+        private void OnDestroy()
+        {
+            EventDestroy?.Invoke();
         }
     }
 }

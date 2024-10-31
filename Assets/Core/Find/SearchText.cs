@@ -72,7 +72,7 @@ namespace Core.Find
             }
         }
 
-        private void Search(string text)
+        public void Search(string text)
         {
             foreach (DataContentInfo content in dataContent) 
             {
